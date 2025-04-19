@@ -1,0 +1,7 @@
+Data Manipulation Approach
+
+The raw Football Dataset was processed in such a way that it could be used to train a ML model effectively.
+
+Python and its Pandas library was used to remove any irrelevant fields and to perform calculations.
+
+Calculations to find the running total of Home and Away Teams based on their last 5, 15, and 38 matches played, was achieved using the Pandas' '.groupby' function, where Home Teams were grouped and their Home Goals, Home Shots, etc., were calculated using the lambda function. Every Serie (column) was converted to a window of 5, 15, and 38 for respective calculations, and a running total was made on that window. Same was repeated with Away Teams.
